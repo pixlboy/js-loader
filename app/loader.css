@@ -1,0 +1,22 @@
+.p-bar{
+	width: 800px;
+	height: 20px;
+	border: 1px solid #ccc;
+	margin: 10px 10px 25px 10px;
+	border-radius: 4px;
+	font-family: sans-serif;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(203,203,203,1) 100%);
+}
+.p-bar .loader{
+	border-radius: 4px;
+	width: 0;
+	height: 100%;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+}
+.p-bar .loader .control{
+	color: #000;
+	cursor:pointer;
+}
